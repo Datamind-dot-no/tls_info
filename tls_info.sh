@@ -16,8 +16,8 @@ ref_host="datamind.no"
 # *.networking.apple
 read -r -d '' DEFAULT_HOSTS << DEFAULT_HOSTS_BLOCK
 $ref_host
+updates.cdn-apple.com
 app-site-association.networking.apple
-icons.axm-usercontent-apple.com
 login.microsoftonline.com
 login.microsoft.com
 sts.windows.net
@@ -33,6 +33,7 @@ DEFAULT_HOSTS_BLOCK
 # cdn.apple-cloudkit.com
 # cdn.apple-livephotoskit.com
 # cdn.icloud-content.com
+# icons.axm-usercontent-apple.com
 
 
 function show_help() {
